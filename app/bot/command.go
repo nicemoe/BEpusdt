@@ -107,15 +107,15 @@ func cmdStateHandle(ctx context.Context, b *bot.Bot, u *models.Update) {
 
 	// 动态显示启用类型的收款汇总
 	typeDisplayNames := map[string]string{
-		model.OrderTradeTypeTronTrx:      "TRX",
+		//model.OrderTradeTypeTronTrx:      "TRX",
 		model.OrderTradeTypeUsdtTrc20:    "USDT.Trc20",
 		model.OrderTradeTypeUsdtErc20:    "USDT.Erc20",
-		model.OrderTradeTypeUsdtBep20:    "USDT.Bep20",
-		model.OrderTradeTypeUsdtAptos:    "USDT.Aptos",
-		model.OrderTradeTypeUsdtXlayer:   "USDT.Xlayer",
-		model.OrderTradeTypeUsdtSolana:   "USDT.Solana",
-		model.OrderTradeTypeUsdtPolygon:  "USDT.Polygon",
-		model.OrderTradeTypeUsdtArbitrum: "USDT.Arbitrum",
+		//model.OrderTradeTypeUsdtBep20:    "USDT.Bep20",
+		//model.OrderTradeTypeUsdtAptos:    "USDT.Aptos",
+		//model.OrderTradeTypeUsdtXlayer:   "USDT.Xlayer",
+		//model.OrderTradeTypeUsdtSolana:   "USDT.Solana",
+		//model.OrderTradeTypeUsdtPolygon:  "USDT.Polygon",
+		//model.OrderTradeTypeUsdtArbitrum: "USDT.Arbitrum",
 	}
 
 	for _, t := range types {
